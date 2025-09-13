@@ -1,6 +1,6 @@
 [TOC]
 
-For DSCI 551 Project, we built a database system called AwesomeDB. We designed different database engine for our database system that provides support for relational and nosql functionalities. We provided two real-life large datasets form kaggle, `movies.csv` and `rotten_tomatoes_movies.csv` for testing our databases. Since the two data set doesn't have tables to be joined, we also supplied the `joinTable1.csv` and `joinTable2.csv` for testing join operations. All storage and operations are processed in chunks so that we only need to load a limited amount of data into main memory at a time. This project also provides a CLI and Web app for users to interact with our database system. We also designed a query language of our own to query the database in the CLI.
+We developed AwesomeDB, a hybrid database management system supporting both relational and NoSQL functionalities, optimized with chunk-based storage for scalability and memory efficiency. The system features a Flask backend with both a CLI and web interface to enable intuitive interaction, while a custom query language was designed to support CRUD operations, joins, grouping, and aggregations. Validated on real-world datasets such as movie and review data, AwesomeDB demonstrates the ability to integrate heterogeneous sources and deliver flexible, user-facing analytics at scale.
 
 
 ## Project Structure
